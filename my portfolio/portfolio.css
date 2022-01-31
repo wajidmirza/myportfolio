@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body{
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background:linear-gradient(rgba(0, 132, 255, 0.5),rgba(255, 0, 0, 0)), url('../image/header.jpg');
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+header nav.navbar ul.navlist li{
+    font-size: 22px;
+    display: inline;
+    text-align: center;
+}
+ header div.back nav.navbar ul.navlist li a{
+    text-decoration: none;
+    color:whitesmoke;
+    display: inline-block;
+   margin: 6px;
+   padding: 10px;
+   font-size: 30px;
+}
+header div.back nav.navbar ul.navlist li a.left{
+    float: left;
+}
+header div.back nav.navbar ul.navlist li a.right{
+    float: right;
+    background-color: rgb(0, 0, 0);
+    border: 2px;
+    border-radius: 20px;
+}
+header div.back nav.navbar ul.navlist li a.right:hover{
+    color: rgb(49, 10, 221);
+}
+header div.back nav.navbar ul.navlist li a.left:hover{
+    color:rgb(219, 119, 206);
+}
+header div.back nav.navbar ul.navlist::after{
+    display: block;
+    clear:both;
+    content:'';
+}
+div.mydiv{
+    text-align: center;
+}
+
+div.myintro h2{
+margin-top: 200px;
+text-align: center;
+color: aqua;
+font-size: 60px;
+}
+div.mydiv div.mypara{
+    color: rgb(243, 235, 235);
+    margin: 8px;
+    font-size: 30px;
+}
+div.myintro h2::selection{
+    color: maroon;
+    }
+    div.mydiv div p::selection{
+        color:rgb(6, 6, 8)
+    }
+    div.mydiv a.link{
+        text-decoration: none;
+        display: inline-block;
+        color:lightpink;
+        background-color: rgba(0, 0, 0, 0.658);
+        border: 2px;
+        display: inline-block;
+        border-radius: 20px;
+        padding: 8px;
+    }
+div.mydiv a:hover
+{
+    color: mediumslateblue;
+}
+section.am div.about{
+    height: 500px;
+    padding:15px;
+}
+
+div.about p{
+color:rgb(12, 24, 88);
+width: 50%;
+float: left;
+font-size: 26px;
+margin-left:20px ;
+letter-spacing: 3px;
+text-align: center;
+margin-top: 15px;
+padding:15px;
+
+}
+div.about h2{
+    text-align: center;
+    margin: 20px;
+    color: wheat;
+    background-color: black;
+}
+div.about img{
+    float: right;
+    width: 40%;
+    height: 400px;
+    padding-right: 15px;
+}
+section.wm{
+    height: 500px;
+    margin-top: 15px;
+}
+
+section.wm div.whyme{
+    text-align: center;
+    background-color: lightpink;
+    margin: 20px;
+}
+
+section.wm  div.image img{
+    height: 400px;
+    width: 40%;
+    float: left;
+    border-radius: 100px;
+    margin: 10px 20px;
+    
+}
+section.wm div.me{
+    font-size: 26px;
+    text-align: center;
+    padding-right: 15px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: rgb(17, 72, 226);
+    margin-right: 20px;
+}
+header div.social li{
+    text-align: center;
+    margin: 30px;
+    list-style: none;
+    display: inline;
+
+}
+header div.social{
+    margin-top: 30px;
+
+}
+header div.social li a{
+    text-decoration:none ;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+
+footer.contact div.container{
+    height: 300px;
+    width: 100%;
+}
+footer.contact h2{
+    background-color: black;
+    margin: 20px;
+    color: burlywood;
+    margin-bottom: 0px;
+    text-align: center;
+}
+footer.contact div.container  img{
+    
+    height: 300px;
+    float: right;
+    width: 50%;}
+    footer.contact div.container div.cont h3{
+        text-align: center;
+    
+    }
+    footer.contact div.container  div.par{
+        text-align: center;
+        margin: 5px;
+        width: 50%;
+        color: white;
+    }
+    footer.contact div.container  div.par {
+        background-color: rgba(0, 0, 0, 0.959);
+        width: 40%;
+        height: 300px;
+        padding-top: 30px;
+        margin-left: 30px;
+    }
+    footer.contact div.container  li{
+        text-align: center;
+        display: inline;
+        margin: 50px;
+        text-align: center;
+        padding-top: 30px;
+        
+    }
+    footer.contact div.container  li a:hover{
+        color: blanchedalmond;
+
+    }
